@@ -1,0 +1,125 @@
+body {
+    background-color: aliceblue;
+    background-image: url('');
+}
+
+.Container {
+
+    padding: 20px 0;
+    position: relative;
+  
+}
+
+
+
+
+.main {
+    /* background-color: whitesmoke; */
+   background-image: url('https://cdn2.opendemocracy.net/media/images/Domenico_Carolei.max-760x504.jpg');
+}
+
+.about {
+    width: 12rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 0 auto 50px;
+    position: relative;
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: red;
+    animation: scale 1s infinite alternate;
+}
+@keyframes scale {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.5);
+    }
+  }
+
+.title {
+    margin-left: 5rem;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+   margin-top: 1rem;
+
+}
+
+.heading {
+    margin-left: 5rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    transition: transform 0.3s ease-in-out;
+   
+}
+
+
+
+.paragraph {
+    margin-left: 5rem;
+    margin-right: 4rem;
+   
+
+}
+
+.button {
+    margin-left: 7rem;
+   background-color: #fff;
+    border-radius: 5px;
+   font-size: 15px;
+    border:3px solidv red;
+    padding: 7px 15px;
+    margin-top: 15px;
+    outline: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: red;
+}
+
+
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    position: relative;
+    height: 245px;
+    grid-template-columns: max-content;
+    padding: 35px;
+    
+
+
+}
+
+.maincontainer {
+    width: 27%;
+    height: 30vh;
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    border: 5px solid whitesmoke;
+    transition: transform 0.3s ease-in-out;
+}
+.maincontainer.animated {
+    transform: rotate(360deg);
+  }
+
+.maincontainer:hover{
+    width: 27%;
+    height: 30vh;
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    border: 5px solid whitesmoke;
+    border-color: red;
+}
+
+
+
+
