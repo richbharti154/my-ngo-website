@@ -1,11 +1,11 @@
 import React from 'react'
 import { useState } from 'react'
 import style from './Aboutus.module.css'
-import { useNavigate } from 'react-router-dom'
+// import { useNavigate } from 'react-router-dom'
 
 export default function Aboutus() {
     const [isAnimated, setIsAnimated] = useState(false);
-    const navigate = useNavigate()
+    // const navigate = useNavigate()
     function handleClick() {
         setIsAnimated(!isAnimated);
     };

@@ -1,0 +1,26 @@
+body {
+    background-color: lightgrey
+}
+.sectionTitle{
+    width: 12rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 0 auto 50px;
+    position: relative;
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: red;
+    text-decoration: underline;
+    animation: scale 1s infinite alternate;
+    top: 20px
+}
+.galleryContainer{
+    column-count: 2;
+    column-gap: 10px;
+}
+.item{
+ position: relative;
+ margin-bottom: 30px;
+ overflow: hidden;
+}
