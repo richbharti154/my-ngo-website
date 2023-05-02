@@ -9,6 +9,8 @@ import Footer from '../Footer/Footer.js'
 import {Link} from 'react-router-dom'
 
 export default function Home(){
+    
+    
     return(
         <>
         <div id="Home" className={Home1.Container}>
@@ -18,7 +20,7 @@ export default function Home(){
          </div>
         </div>
         <div id='Aboutus'>
-            
+         
          <Aboutus/>
          </div>
          <div id='Programme'>

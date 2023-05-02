@@ -1,13 +1,13 @@
 body {
     background-color: aliceblue;
-    background-image: url('');
+
 }
 
 .Container {
 
     padding: 20px 0;
     position: relative;
-  
+
 }
 
 
@@ -15,7 +15,10 @@ body {
 
 .main {
     /* background-color: whitesmoke; */
-   background-image: url('https://cdn2.opendemocracy.net/media/images/Domenico_Carolei.max-760x504.jpg');
+     background-image: url('https://cdn2.opendemocracy.net/media/images/Domenico_Carolei.max-760x504.jpg');
+     
+
+    
 }
 
 .about {
@@ -29,22 +32,25 @@ body {
     text-transform: uppercase;
     color: red;
     animation: scale 1s infinite alternate;
+    text-decoration: underline;
 }
+
 @keyframes scale {
     from {
-      transform: scale(1);
+        transform: scale(1);
     }
+
     to {
-      transform: scale(1.5);
+        transform: scale(1.5);
     }
-  }
+}
 
 .title {
     margin-left: 5rem;
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
-   margin-top: 1rem;
+    margin-top: 1rem;
 
 }
 
@@ -53,7 +59,7 @@ body {
     font-size: 1rem;
     margin-top: 1rem;
     transition: transform 0.3s ease-in-out;
-   
+
 }
 
 
@@ -61,22 +67,24 @@ body {
 .paragraph {
     margin-left: 5rem;
     margin-right: 4rem;
-   
+
 
 }
 
 .button {
-    margin-left: 7rem;
-   background-color: #fff;
-    border-radius: 5px;
-   font-size: 15px;
-    border:3px solidv red;
-    padding: 7px 15px;
+    margin-left: 8rem;
+    background-color: #fff;
+    border-radius: 15px;
+    font-size: 17px;
+    border: 3px solidv red;
+    padding: 7x 15px;
+    height: 5vh;
     margin-top: 15px;
     outline: none;
     cursor: pointer;
 }
-.button:hover{
+
+.button:hover {
     background-color: red;
 }
 
@@ -92,7 +100,7 @@ body {
     height: 245px;
     grid-template-columns: max-content;
     padding: 35px;
-    
+
 
 
 }
@@ -106,11 +114,12 @@ body {
     border: 5px solid whitesmoke;
     transition: transform 0.3s ease-in-out;
 }
+
 .maincontainer.animated {
     transform: rotate(360deg);
-  }
+}
 
-.maincontainer:hover{
+.maincontainer:hover {
     width: 27%;
     height: 30vh;
     background-color: lightgrey;
@@ -119,7 +128,3 @@ body {
     border: 5px solid whitesmoke;
     border-color: red;
 }
-
-
-
-
