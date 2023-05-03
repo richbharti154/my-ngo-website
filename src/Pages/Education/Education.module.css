@@ -74,7 +74,7 @@ body {
 
 
 .sectionTitle {
-    width: 12rem;
+    /* width: 12rem;
     text-align: center;
     font-size: 2rem;
     font-weight: 200;
@@ -82,10 +82,17 @@ body {
     position: relative;
     padding: 10px 0;
     text-transform: uppercase;
-    color: red;
+    background-color: rgba(0, 0, 0, 0.5);
     text-decoration: underline;
     animation: scale 1s infinite alternate;
-    top: 50px
+    top: 50px */
+
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    animation: scale 1s infinite alternate;
+    text-decoration: underline;
 }
 
 @keyframes scale {

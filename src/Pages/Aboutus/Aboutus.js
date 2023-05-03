@@ -15,7 +15,7 @@ export default function Aboutus() {
 
             <div className={style.main}>
 
-                <h1 className={style.about}>About us</h1>
+                <h6 className={style.about}>About us</h6>
                 {/* <button
                     text="Back to Home"
                     onClick={() => navigate("/")}

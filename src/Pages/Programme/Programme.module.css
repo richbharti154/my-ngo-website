@@ -17,17 +17,12 @@ body {
 }
 
 .programme {
-    width: 12rem;
     text-align: center;
-    font-size: 2rem;
-    font-weight: 200;
-    margin: 0 auto 50px;
-    position: relative;
-    padding: 10px 0;
-    text-transform: uppercase;
-    color: red;
-    text-decoration: underline;
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
     animation: scale 1s infinite alternate;
+    text-decoration: underline;
     bottom:35px;
 }
 @keyframes scale {

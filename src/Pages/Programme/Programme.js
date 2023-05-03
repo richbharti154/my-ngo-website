@@ -12,7 +12,7 @@ export default function Programme(src,alt){
     return(
         <section className={style.program1}>
             <div className={style.programContainer}>
-           <h2 className={style.programme}>Programme</h2>
+           <h6 className={style.programme}>Programme</h6>
             <div className={style.boxcontainer}>
                 <div className={style.box} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <div className={`${style.cardImage} ${hovered ? style.zoom : ''}`} src={src} alt={alt}></div>

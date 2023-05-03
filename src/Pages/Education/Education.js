@@ -12,7 +12,7 @@ export default function Education(){
       }
     return(
         <section className={style.educationSection}>
-         <div className={style.sectionTitle}>Education</div>
+         <h6 className={style.sectionTitle}>Education</h6>
             <ReactPlayer autoplay muted loop
                     url='https://www.youtube.com/watch?v=sCPREA5NFTU' 
                     width = '100%'
