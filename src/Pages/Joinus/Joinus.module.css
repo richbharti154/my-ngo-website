@@ -1,0 +1,47 @@
+.FooterSection{
+   color: black;
+    width:80%;
+    height: 70vh;
+    margin-top: 5rem;
+    margin-left: 8rem;
+    background-image: url('https://htmlcolorcodes.com/assets/images/colors/coral-pink-color-solid-background-1920x1080.png');
+    
+}
+
+.paragraph{
+    text-align: center;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+}
+
+.joinTitle{
+    font-size: 40px;
+    font-weight: 100;
+    padding-top: 7rem;
+    padding-left: 5rem;
+}
+.span1{
+    font-weight: 800;
+}
+.joinNow{
+     width: 8%;
+     height: 5vh;
+    margin-top: 20px;
+    border: 0;
+    outline:none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 4rem;
+    background-color: lightgreen
+}
+.joinNow1{
+    width: 10%;
+     height: 5vh;
+    margin: 1rem;
+    margin-top: 20px;
+    border: 0;
+    outline:none;
+    font-weight: 600;
+    font-size: 16px;
+   
+}

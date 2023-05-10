@@ -5,8 +5,9 @@ import Aboutus from '../Aboutus/Aboutus.js'
 import Education from '../Education/Education.js'
 import Programme from '../Programme/Programme.js'
 import Gallery from '../Gallery/Gallery.js'
+import Joinus from '../Joinus/Joinus.js'
 import Footer from '../Footer/Footer.js'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 
 export default function Home(){
     
@@ -32,6 +33,9 @@ export default function Home(){
            </div>
            <div id='Gallery'>
            <Gallery/>
+           </div>
+           <div id='Joinus'>
+           <Joinus/>
            </div>
          
           <Footer/> 
