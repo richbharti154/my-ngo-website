@@ -7,6 +7,7 @@ import Education from './Pages/Education/Education.js'
 import Programme from './Pages/Programme/Programme.js'
 import Gallery from './Pages/Gallery/Gallery.js'
 import Joinus from './Pages/Joinus/Joinus.js'
+import Signup from  './Component/SignUp/Signup.js'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/Education' element={<Education/>}/>
         <Route path='/Gallery' element={<Gallery/>}/>
         <Route path='/Joinus' element={<Joinus/>}/>
+        <Route path='/Registeer' element={<Signup/>}/>
       </Routes>
     </div>
        
