@@ -1,0 +1,77 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url('https://e0.pxfuel.com/wallpapers/692/714/desktop-wallpaper-beautiful-nature-latest-beauty-nature.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  width: 120%;
+  height: 100vh;
+}
+
+.box {
+  margin-top: 2em;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 27.875rem;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: lightpink;
+  margin-right: 20rem;
+
+}
+
+.input {
+  width: 16rem;
+  height: 2.5rem;
+  padding-left: 1rem;
+  border-radius: 5px;
+}
+
+.button {
+  color: white;
+}
+
+.submit {
+  width: 5rem;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  background-color: greenyellow;
+}
+
+.Login{
+  border: none;
+  height: 30px;
+  margin-left: 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+@media only screen and(max-width:700px) {
+  .box {
+    margin-top: 2em;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 300px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(143, 142, 211, 0.623);
+
+    box-shadow: 10px 10px 10px rgb(197, 19, 19);
+  }
+
+}

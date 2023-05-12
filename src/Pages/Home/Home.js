@@ -38,7 +38,8 @@ export default function Home(){
            <Joinus/>
            </div>
          
-          <Footer/> 
+          <Footer/>
+          
          </>
     )
 }

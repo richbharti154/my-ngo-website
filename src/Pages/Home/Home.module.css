@@ -19,3 +19,11 @@ body{
   position: fixed;
   top: 0%;
  }
+/*  responsive */
+@media screen and (max-width:1140px){
+  .Container{
+    width:100%;
+    padding:0 15px;
+    margin-top:20px
+  }
+}
