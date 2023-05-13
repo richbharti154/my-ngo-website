@@ -19,6 +19,25 @@ body{
   position: fixed;
   top: 0%;
  }
+ .ngo{
+  color:blue;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 1000;
+  animation: scale 1s infinite alternate;
+ margin-left: 20rem;
+
+}
+@keyframes scale {
+  from {
+      transform: scale(1);
+  }
+
+  to {
+      transform: scale(1.5);
+  }
+}
+
 /*  responsive */
 @media screen and (max-width:1140px){
   .Container{

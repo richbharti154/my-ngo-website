@@ -15,9 +15,12 @@ export default function Home(){
     return(
         <>
         <div id="Home" className={Home1.Container}>
+        
          <Navbar  className={Home1.navbar1}/>
          <div className={Home1.wrap}>
-
+            <div className={Home1.ngo}>
+        <h1 className={Home1.ngo1}>NGO WEBSITE</h1>
+        </div>
          </div>
         </div>
         <div id='Aboutus'>

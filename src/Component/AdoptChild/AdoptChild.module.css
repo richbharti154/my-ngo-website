@@ -1,0 +1,27 @@
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://cdn2.opendemocracy.net/media/images/Domenico_Carolei.max-760x504.jpg');
+}
+
+.first {
+  margin-top: 20px;
+}
+
+.button3 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 50px;
+}

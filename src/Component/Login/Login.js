@@ -1,5 +1,4 @@
 import React from 'react'
-
 import{useState,useEffect} from 'react'
 import {auth ,signInWithGoogle } from "../../Atoms/Input/Firebase/Firebase.js";
 import { useNavigate } from 'react-router-dom';
@@ -40,9 +39,10 @@ export default function SignIn() {
     return (
        
         <div className={page.Container}>
+          <div  classname={page.box}>
         <div className={page.leftSection}>
-          
         </div>
+        
         <div className={page.rightSection}>
             <div className={page.signin}>
               <h1 className={page.sign}>Sign In</h1>
@@ -50,7 +50,7 @@ export default function SignIn() {
             </div>
             <div className={page.mainButton}>
             {user === null ? (
-            <Button text="Sign in with Google" icon={<FcGoogle />}
+            <Button style={{marginRight:'2rem'}}text="Sign in with Google" icon={<FcGoogle />}
              className={page.gbtn} onClick={signInWithGoogle} />
           ) : (
             <Button text="Sign out from Google" icon={<FcGoogle />} className={page.googlebtn} onClick={signGoogle} />
@@ -68,11 +68,11 @@ export default function SignIn() {
                 
             </div>
             <div>
-                <p>if u want to Adopt child  <a href='/AdoptChild'>AdoptChild</a> </p>
+                <p>if u want to Adopt child  <a href='/AdoptChild'>Just click</a> </p>
             </div>
             
         </div>
-  
+        </div>
         </div>
   )
 }

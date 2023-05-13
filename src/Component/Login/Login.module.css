@@ -1,25 +1,26 @@
-body{
-    background-image: url('https://www.dreamstime.com/stock-photo-landscape-nature-mountan-alps-rainbow-image76824355');
-}
 .Container {
+     flex:1;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin-right: 35rem;
-   background-color: lightblue;
+    width:100%;
+    background-image: url('https://media.istockphoto.com/id/1288385045/photo/snowcapped-k2-peak.jpg?s=612x612&w=0&k=20&c=sfA4jU8kXKZZqQiy0pHlQ4CeDR0DxCxXhtuTDEW81oo=');
+  }
+  .box{
+    background-color: lightpink;
+    
   }
   
   .leftSection {
-    flex:1;
-    background-image: url('https://www.dreamstime.com/stock-photo-landscape-nature-mountan-alps-rainbow-image76824355');
-    background-size: cover;
+  
+    
     background-color: #dd4b39;
   }
   
   .rightSection {
-    flex: 1;
+   
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -66,6 +67,7 @@ body{
     display: flex;
     align-items: center;
     cursor: pointer;
+  margin-right:3rem;
   }
   
   .mainInput {
