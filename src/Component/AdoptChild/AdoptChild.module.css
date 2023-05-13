@@ -19,9 +19,26 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   margin: 8px 2px;
   cursor: pointer;
   border-radius: 5px;
-  margin-left: 50px;
+  margin-left: 45px;
+  
+}
+@media (max-width: 1140px) {
+  .Container {
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+  }
+  
+  .first {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .button3 {
+    margin-left: 0;
+  }
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import style from './AdoptChild.module.css'
 import {useNavigate} from 'react-router-dom'
 
+
 export default function AdoptChild() {
     const data1=[{
         id: 1, 
@@ -58,22 +59,23 @@ function handleClick3(){
         <div className={style.Container} >
             <div className={style.first}>
             {data1.map((ele) => <div key={ele.id}><img src={ele.imageSrc} alt={`Image ${ele.id}`} style={{ width: '120%', height: '40vh' }} />
-                <p >{ele.name}</p><p><button  className={style.button3}onClick={()=>handleClick(navigate('/Rohan'))}>Adopt</button></p>
+                <p style={{margin:'3rem',color:'red'}} >{ele.name}</p><p><button  className={style.button3}onClick={()=>handleClick(navigate('/Rohan'))}>Adopt</button></p>
                  </div>)}
                  </div>   
 
        
         {data2.map((ele) => <div key={ele.id}><img src={ele.imageSrc} alt={`Image ${ele.id}`} style={{ width: '120%', height: '40vh' }} />
-        <p >{ele.name}</p><p><button onClick={()=>handleClick1(navigate('/Shreya'))}>Adopt</button></p>
+        <p style={{margin:'3rem',color:'red'}}>{ele.name}</p><p><button  className={style.button3}onClick={()=>handleClick1(navigate('/Shreya'))}>Adopt</button></p>
                  </div>)}
 
          {data3.map((ele) => <div key={ele.id}><img src={ele.imageSrc} alt={`Image ${ele.id}`} style={{ width: '120%', height: '40vh' }} />
-        <p >{ele.name}</p><p><button onClick={()=>handleClick2(navigate('/Sohan'))}>Adopt</button></p>
+        <p style={{margin:'3rem',color:'red'}}>{ele.name}</p><p><button  className={style.button3} onClick={()=>handleClick2(navigate('/Sohan'))}>Adopt</button></p>
                  </div>)}
 
                  {data4.map((ele) => <div key={ele.id}><img src={ele.imageSrc} alt={`Image ${ele.id}`} style={{ width: '120%', height: '40vh' }} />
-        <p >{ele.name}</p><p><button onClick={()=>handleClick3(navigate('/Rohit'))}>Adopt</button></p>
+        <p style={{margin:'3rem',color:'red'}}>{ele.name}</p><p><button className={style.button3}  onClick={()=>handleClick3(navigate('/Rohit'))}>Adopt</button></p>
                  </div>)}
+                
 
          </div>
     );

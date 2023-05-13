@@ -54,7 +54,11 @@
   .imageWrapper:hover .overlay {
     opacity: 1;
   }
-  
+  @media screen and (max-width: 1140px) {
+    .images {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+  }
   
   
   

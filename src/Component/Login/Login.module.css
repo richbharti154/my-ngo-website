@@ -102,7 +102,27 @@
     text-decoration: none;
   }
   
+  @media screen and (max-width: 1140px) {
+    .Container {
+      flex-direction: column;
+    }
+    
+    .rightSection {
+      width: 80%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    
+    .gbtn {
+      margin-right: 0;
+    }
+  }
+ 
   
   
+  
+  
+  
+   
   
   

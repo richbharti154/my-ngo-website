@@ -29,7 +29,7 @@
 .Navbar:hover{
   background-color: #e43a47;
 }
-@media only screen and(max-width:450px){
+@media only screen and(max-width:1140px){
   .Container{
     gap: 0.5rem;
     justify-content: flex-start;

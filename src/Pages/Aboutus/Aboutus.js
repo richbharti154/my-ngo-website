@@ -57,9 +57,9 @@ export default function Aboutus() {
                         <div className={style.title}>Become a voluntier</div>
 
                         <p className={style.heading}>
-                            This is donation for NGO if
-                            u have interested then you can
-                            give donation anythings as your choice like money,cloth etc
+                            If you are interested to become volentier then
+                            u have donate anythings if u choice like snacks
+                            but u are voluntier
                         </p>
                         <button className={style.button}>Become now</button>
                     </div>
@@ -68,10 +68,9 @@ export default function Aboutus() {
                     >
                         <div className={style.title}>Give Scholarship</div>
                         <p className={style.heading}>
-
-
-                            This is donation for NGO if u have interested then you can
-                            give donation anythings as your choice like money,cloth etc
+                         if you are interested to pay anythings like money 
+                         especially for scholarship then u can give money and Education
+                         facility like dress,books
                         </p>
                         <button className={style.button}>Immediately</button>
 

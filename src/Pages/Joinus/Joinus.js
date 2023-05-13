@@ -5,7 +5,7 @@ import style from './Joinus.module.css'
 export default function Home(){
     const navigate=useNavigate()
     function handleAlert(){
-        alert('go to Login page')
+        alert('U can not Adopt without Login Authentication')
     }
 
     return(

@@ -20,22 +20,22 @@ export default function Footer() {
                 useful Links </div> 
                 <ul>
                     <li>
-                        <a href='/'>Home</a>
+                        <a  style={{color: '#7f7f7f'}}href='/'>Home</a>
                     </li>
                     <li>
-                        <a href='/Aboutus'>Aboutus</a>
+                        <a  style={{color: '#7f7f7f'}} href='/Aboutus'>Aboutus</a>
                     </li>
                     <li>
-                        <a href='/Programme'>Programme</a>
+                        <a  style={{color: '#7f7f7f'}}href='/Programme'>Programme</a>
                     </li>
                     <li>
-                        <a href='/Education'>Education</a>
+                        <a style={{color: '#7f7f7f'}}href='/Education'>Education</a>
                     </li>
                     <li>
-                        <a href='/Gallery'>Gallery</a>
+                        <a style={{color: '#7f7f7f'}} href='/Gallery'>Gallery</a>
                     </li>
                     <li>
-                        <a href='/Joinus'>Joinus</a>
+                        <a style={{ color: '#7f7f7f'}}href='/Joinus'>Joinus</a>
                     </li>
                 </ul>
                
@@ -43,7 +43,7 @@ export default function Footer() {
             <div className={style.connect}>
              <div className={style.title}>
                 connect with us </div>
-                <p> Bairagi tola bandha baijhnathpur Deoghar jharkhand</p>
+                <p > Bairagi tola bandha baijhnathpur Deoghar jharkhand</p>
                 <p>richabharti154@gmail.com</p>
                 <p>9155975304</p>
             

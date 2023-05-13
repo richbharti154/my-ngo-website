@@ -199,3 +199,9 @@ span{
     background-color: blue;
     outline:blanchedalmond;
 }
+@media screen and(max-width:1140px) {
+    .programContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+} 
+    

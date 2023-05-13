@@ -45,3 +45,32 @@
     font-size: 16px;
    
 }
+@media screen and (max-width:1140px){
+    .FooterSection{
+    width:100%;
+    margin: 0;
+    padding: 50px 15px 0;
+    }
+    .paragraph{
+    padding-left: 0;
+    }
+    .joinTitle{
+    font-size: 30px;
+    padding-left: 0;
+    }
+    .joinNow,
+    .joinNow1{
+    width: 100%;
+    margin-left: 0;
+    }
+    .joinNow1{
+    margin: 0.05rem 0;
+    }
+    }
+    
+    
+    
+    
+    
+    
+    

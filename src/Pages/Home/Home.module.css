@@ -2,6 +2,7 @@ body{
   margin: 0%;
   padding: 0;
   /* box-sizing: border-box; */
+ 
 }
 
 .Container{
@@ -14,6 +15,7 @@ body{
    /* background-attachment: fixed; */
    background-position: center;
     position: relative;
+   
  }
  .navbar{
   position: fixed;
@@ -41,8 +43,8 @@ body{
 /*  responsive */
 @media screen and (max-width:1140px){
   .Container{
-    width:100%;
-    padding:0 15px;
-    margin-top:20px
+    padding: 0 15px;
+    margin-top: 20px;
+   
   }
 }
