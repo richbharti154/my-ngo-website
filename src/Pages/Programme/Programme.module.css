@@ -11,7 +11,7 @@ body {
 
 .programContainer {
     margin-left: 1rem;
- padding-top: 46px;
+ padding-top: 30px;
    
     
 }
@@ -19,11 +19,11 @@ body {
 .programme {
     text-align: center;
     font-size: 3rem;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 50px;
     animation: scale 1s infinite alternate;
     text-decoration: underline;
-    bottom:35px;
+    bottom:28px;
 }
 @keyframes scale {
     from {
@@ -38,6 +38,8 @@ body {
 
 .program1 {
     background-color: #e2e2e2;
+    
+    padding: 30px;
 
 }
 
@@ -204,4 +206,12 @@ span{
         grid-template-columns: repeat(2,1fr);
     }
 } 
+.stripe{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+   
+    
+}
     
