@@ -1,70 +1,74 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Title
 
-## Available Scripts
+NGO Website
+This NGO website is divided into 5 sections with routing implemented for easy navigation. Users can start at the Home page and access other sections including About Us, Education, Programme, Gallery, and Join Us. In the Join Us page, users can click to login using authentication and adopt a child. The Programme section allows users to make a donation using a payment card.
 
-In the project directory, you can run:
 
-### `npm start`
+## Acknowledgements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The first page of the NGO website features an image, while the About Us page provides comprehensive details about the organization. The third page, Programme, showcases four pictures of children, while the Education page offers information and videos. The Gallery page displays pictures related to the NGO's activities. The Join Us page consists of two parts - Join Us and Adopt Child. Users can go to the authentication part and adopt a child. The Footer page contains links to all pages and contact information. The website employs routing and NavLink for seamless navigation.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Deployment
 
-### `npm test`
+To deploy this project run
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+  npm run deploy
+```
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+My Project install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+firstly install npm install react
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+then npm  create-react-app my-app
 
-### `npm run eject`
+npm install react-router-dom 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm install react-icons
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm install stripe
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm install react-stripe-checkout
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm i prop-types
 
-## Learn More
+## 🚀 About Me
+https://avatars.githubusercontent.com/u/116936700?v=4
+Hello, my name is Richa Bharti and I come from Deoghar in Jharkhand. I completed my 10th from Adwaita Mission High School and 12th from Horizon School in 2017. Later, I completed my BCA from AS College Deoghar in 2021 and joined Function up, one of the best platforms to get a job.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+As a passionate Frontend Developer, I am dedicated to developing and designing the React part that interacts with the frontend part of web applications. I am a collaborative team player, eager to work with interdisciplinary teams for organizational growth and have a passion for creating new products. I am excited to embark on my journey as a Frontend Developer.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+*👩‍💻 I'm currently working on Reactjs Fronted-Developer
 
-### Making a Progressive Web App
+*🧠 I'm currently learning on REACT js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+👯‍♀️ I'm looking to collaborate on unique and awesome Project
 
-### Advanced Configuration
+*💬 Ask me about Javascript,React and Css
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+*📫 How to reach me  -> drop me a mail at richabharti154@gmail.com
+*❤️ You can ping me at Linkedin
 
-### Deployment
+*📄 Know about my experiences My Resume
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+   My Github profile - Github
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 🛠 Skills
+Javascript, CSS,HTML,React and Recoil,Redux
+
+## Tech Stack
+
+** ReactJS,ReactIcons,CSS,NOdejs
+
+
+
+
